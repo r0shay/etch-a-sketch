@@ -1,0 +1,53 @@
+body{
+    /*box-shadow: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.19);*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: antiquewhite;
+
+    
+}
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+button{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 2px;
+    font-weight: bold;
+    font-style: normal;
+    display: flex;
+    margin: 10px;
+
+}
+:root {
+    --grid-cols: 16;
+    --grid-rows: 16;
+  }
+#grid{
+    display: grid;
+    grid-gap: 0px;
+    grid-template-rows: repeat(var(--grid-rows), 1fr);
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
+    height: 500px;
+    width: 500px;
+    align-self: center;
+    background-color: white;
+    
+
+}
+#squares{
+    padding: 2px;
+    border: 1px solid #ddd;
+    text-align: center;
+    height:auto;
+    width: auto;
+}
+/*#squares:hover{
+    background-color: blueviolet;
+}*/
+.my-color-class {
+    background-color: blueviolet;
+  }
